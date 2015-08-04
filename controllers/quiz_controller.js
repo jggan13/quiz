@@ -11,3 +11,7 @@ if(req.query.respuesta==="Roma"){
 	res.render('quizes/answer', {respuesta: 'Incorrecto'});
 }
 };
+
+exports.probando = function(req, res){
+	res.render('prueba/probando', {mensajesi: 'Funciona Perfectamente'});
+};
